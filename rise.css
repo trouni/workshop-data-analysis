@@ -1,0 +1,53 @@
+/* === Settings === */
+
+:root {
+    /* === COLORS === */
+    /* Primary font color */
+    --color-primary: #222;
+    /* Background */
+    --color-bg: white;
+    /* Accents (bg needs to be in RGB decimal for transparency) */
+    --color-accent: 253, 16, 21;
+    --color-accent-bg: 253, 16, 21;
+    /* Code snippets in Markdown (bg needs to be in RGB decimal for transparency) */
+    --color-md-code: var(--color-primary);
+    --color-md-code-bg: 225, 155, 25;
+    /* Code comments in Markdown */
+    --color-md-code-comments: grey;
+    /* Other */
+
+    /* === TYPOGRAPHY === */
+    --font-size-codecell: 1.2em;
+}
+
+/* === General styling === */
+
+.rise-enabled .reveal a {
+    color: rgb(var(--color-accent));
+}
+
+.rise-enabled .reveal strong {
+    color: rgb(var(--color-accent));
+    background-color: rgba(var(--color-accent), 0.1);
+}
+
+.rise-enabled .reveal img {
+    margin: auto;
+}
+
+/* === Code markdown === */
+
+.rise-enabled .reveal code, .rise-enabled .reveal code.cm-s-ipython {
+    color: rgb(var(--color-md-code));
+    background-color: rgba(var(--color-md-code-bg), 0.1);
+}
+
+.rise-enabled .reveal code.cm-s-ipython .cm-comment {
+    color: var(--color-md-code-comments);
+}
+
+/* === Code cell === */
+
+.rise-enabled .reveal .CodeMirror {
+    font-size: var(--font-size-codecell);
+}
