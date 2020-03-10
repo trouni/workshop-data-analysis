@@ -4,7 +4,7 @@
 
 ## How to get started:
 ### Option 1: You have a Google account
-1. Open the notebook in [Google Colab](https://colab.research.google.com/github/trouni/workshop-data-analysis/blob/covid19/student/data_analysis_workshop.ipynb)
+1. Open the notebook in [Google Colab](https://colab.research.google.com/github/trouni/workshop-data-analysis/blob/master/data_analysis_workshop.ipynb)
 2. Click on `Copy to Drive` (below the toolbar)
 3. That's it!
 
